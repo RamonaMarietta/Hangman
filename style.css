@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Press Start 2P", sans-serif;
+  padding: 20px;
+  position: relative;
+}
+.gallows {
+  width: 300px;
+  height: 600px;
+  margin: 20px 0;
+}
+.newGame {
+  border: solid;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 0, 5rem 0, 5rem;
+  cursor: pointer;
+}
+.newGame:hover {
+  background-color: #eee;
+}
+.word {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+#letterInput {
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.message {
+  font-size: 18px;
+  color: red;
+  margin-top: 15px;
+}
+.attempts {
+  font-size: 18px;
+  margin: 10px 0;
+}
+button {
+  padding: 8px 15px;
+  font-size: 16px;
+  border: solid;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+}

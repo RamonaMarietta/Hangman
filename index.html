@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+<link rel="stylesheet" href="style.css">
+<script src="word_list.js"></script>
+
+</head>
+<body>
+<h1>Bievenue dans le joue du <span>PENDU !!</span></h1>
+
+<img src="0.drawio.svg" alt=""class ="gallows">
+
+   <p class="word" id="displayWord">_ _ _ _ _</p>
+    <p class="attempts">Essais restants : <span id="attempts">7</span></p>
+    <input type="text" id="letterInput" maxlength="1" placeholder="Entrez une lettre" />
+    <button id="checkButton">Vérifier</button>
+ <p class="message" id="message"></p>
+ <button class="newGame">New Game </button>
+<script src ="script.js"></script>
+
+</body>
+</html>
